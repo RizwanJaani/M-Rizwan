@@ -1,0 +1,33 @@
+void main() {
+ 
+  String firstName = "Nouman";
+  String lastName = "Imran";
+  String fullName = 'Nouman Imran';
+  int age = 18;
+  int salary = 2500;
+  double height =2.0;
+  
+  
+  print("My name is $firstName $lastName & i am $age years old. I am $height meters tall. ");
+  //OUTPUT: My name is Nouman Imran & i am 18 years old. I am 2 meters tall. 
+
+
+  print(fullName);
+  //Zain Haider Naqvi
+  
+  //Using .toUpperCase
+  print(fullName.toUpperCase());
+  //OUTPUT: NOUMAN IMRAN
+  
+  //Using .toLowerCase
+  print(fullName.toLowerCase());
+  //OUTPUT: nouman imran
+
+  //Using .length
+  print(fullName.length);
+  //OUTPUT: 12
+ 
+  //Using .toString
+  print("My Age is ${age.toString()}");
+  //OUTPUT: My Age is 18
+  
